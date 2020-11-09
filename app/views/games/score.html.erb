@@ -1,0 +1,5 @@
+<h1>Your results</h1>
+<h2><%= @result %></h2>
+<h4>Your score is: <%= session[:score] %></h4>
+<%= link_to 'Play Another Round', new_path, class:'link' %>
+<%= link_to 'End Game', end_path, class:'link' %>
